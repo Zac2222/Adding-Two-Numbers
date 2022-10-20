@@ -3,10 +3,27 @@ int num2;
 bool runAgain = true;
 while (runAgain == true)
 {
+    bool isNumber;
     string choice = "";
     Console.WriteLine("Please enter two numbers and the program will add them together");
-    num1 = Convert.ToInt32(Console.ReadLine());
-    num2 = Convert.ToInt32(Console.ReadLine());
+    do
+    {
+        isNumber = int.TryParse(Console.ReadLine(), out num1);
+        if(isNumber == false)
+        {
+            Console.WriteLine("Please enter a valid number");
+        }
+    }while(isNumber == false);
+
+    do
+    {
+     isNumber = int.TryParse(Console.ReadLine(), out num2);
+        if(isNumber == false)
+        {
+            Console.WriteLine("Please enter a valid number");
+        }
+    }while(isNumber == false);
+
     Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
 
     Console.WriteLine("run again? (y / n)");
