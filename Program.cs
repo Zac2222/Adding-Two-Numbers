@@ -1,4 +1,7 @@
-﻿int num1;
+﻿//Peer reviewed Valerie Aguilar
+//Comment: runs great! :)
+
+int num1;
 int num2;
 bool runAgain = true;
 while (runAgain == true)

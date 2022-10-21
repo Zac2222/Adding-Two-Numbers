@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\zac22\\.nuget\\packages\\": {}
+    "/Users/val/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zac22\\Documents\\~Programming\\Level1\\program_Stuff\\Projects\\GitHubChallenges\\AddTwoNumbers\\Adding-Two-Numbers\\Adding-Two-Numbers.csproj",
+      "projectUniqueName": "/Users/val/Documents/CodeStack/Level1/PeerReview/Adding-Two-Numbers/Adding-Two-Numbers.csproj",
       "projectName": "Adding-Two-Numbers",
-      "projectPath": "C:\\Users\\zac22\\Documents\\~Programming\\Level1\\program_Stuff\\Projects\\GitHubChallenges\\AddTwoNumbers\\Adding-Two-Numbers\\Adding-Two-Numbers.csproj",
-      "packagesPath": "C:\\Users\\zac22\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zac22\\Documents\\~Programming\\Level1\\program_Stuff\\Projects\\GitHubChallenges\\AddTwoNumbers\\Adding-Two-Numbers\\obj\\",
+      "projectPath": "/Users/val/Documents/CodeStack/Level1/PeerReview/Adding-Two-Numbers/Adding-Two-Numbers.csproj",
+      "packagesPath": "/Users/val/.nuget/packages/",
+      "outputPath": "/Users/val/Documents/CodeStack/Level1/PeerReview/Adding-Two-Numbers/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zac22\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/val/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
       }
     }
   }
